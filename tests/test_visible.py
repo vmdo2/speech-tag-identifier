@@ -3,7 +3,7 @@ import traceback
 from gradescope_utils.autograder_utils.decorators import weight, visibility, partial_credit
 
 try:
-    from submitted import baseline, viterbi
+    from algorithm import baseline, viterbi
 except Exception as e:
     print(e)
     print(traceback.format_exc())
